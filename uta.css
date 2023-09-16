@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Better;
+    src: url(Gain\ Better.otf);
+}
+
+html, body{
+    font-family: Better;
+    margin: 0;
+}
+
+header{
+    padding: 30px;
+    text-align: center;
+    background-image: linear-gradient(to right, #F07B86 50%, #FFF0F5 50%);
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+}
+
+h2 img {
+    height: 40px;
+    width: 40px;
+}
+
+.icon {
+    border-radius: 250px;
+    width: 150px;
+    border: #ffcdd7 10px solid;
+}
+
+.uta {
+    height: 100px;
+    width: 200px;
+}
+
+.wrapper {
+    background-color: #ffcdd7;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px 55px;
+}
+
+.content p {
+    font-family: Better;
+	text-align: justify;
+	text-indent: 20px;
+}
+
+.content ol {
+    font-family: Better;
+}
+
+img.big-image {
+    max-width: 100%;
+    box-shadow: 5px 10px 10px #F07B86;
+    margin-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p.caption{
+	font-family: Better;
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+	height: 300px;
+	color: black;
+    text-align: center;
+    margin-bottom:1;
+}
+
+.card {
+    height: 200px;
+    flex: 1 1 20px;
+    padding-bottom: 100px;
+	margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s ease;
+}
+.card:hover{
+    flex: 1.3 1 10px;
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+footer {
+    background-image: linear-gradient(to top, #F07B86 30%, #ffcdd7 70%);
+}
+
+footer ul {
+    text-align: center;
+    font-style: italic;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color:red;
+    text-decoration: none;
+}
